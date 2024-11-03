@@ -1,3 +1,10 @@
+<!-- 
+On my website, on Webflow, I use CSS variables for colors.
+I've added a dark mode/light mode switcher and added this script on Webflow that allows to switch between dark mode and light mode by switching between different tables of colors for each CSS variable.
+I also use a browser's Local storage to remember the current mode state (dark or light) so that the selected mode is saved and remains consistent when users revisit the website.  
+-->
+
+
 <script>
 
 function setDarkTheme(elem){
